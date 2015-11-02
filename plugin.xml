@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-inmobi-sdk"
+        version="5.0.2">
+      
+    <name>InMobi SDK for Cordova</name>
+    <description>Add InMobi SDK to Cordova porject, as dependency for other plugins</description>
+    <author>Facebook</author>
+    <keywords>rjfun,cordova,inmobi,sdk</keywords>
+    <repo>https://github.com/floatinghotpot/cordova-inmobi-sdk.git</repo>
+    <issue>https://github.com/floatinghotpot/cordova-inmobi-sdk/issues</issue>
+
+    <engines>
+        <engine name="cordova" version=">=3.0" />
+    </engines>
+
+    <platform name="android">
+        <source-file src="src/android/InMobi-5.0.1.jar" target-dir="libs" />
+     </platform>
+     
+    <platform name="amazon-fireos">
+        <source-file src="src/android/InMobi-5.0.1.jar" target-dir="libs" />
+     </platform>
+
+     <platform name="ios">
+         <header-file src="src/ios/Headers/IMBanner.h"/>
+         <header-file src="src/ios/Headers/IMBannerDelegate.h"/>
+         <header-file src="src/ios/Headers/IMCommonConstants.h"/>
+         <header-file src="src/ios/Headers/IMCustomNative.h"/>
+         <header-file src="src/ios/Headers/IMInterstitial.h"/>
+         <header-file src="src/ios/Headers/IMInterstitialDelegate.h"/>
+         <header-file src="src/ios/Headers/IMNative.h"/>
+         <header-file src="src/ios/Headers/IMNativeDelegate.h"/>
+         <header-file src="src/ios/Headers/IMRequestStatus.h"/>
+         <header-file src="src/ios/Headers/IMSdk.h"/>
+         <source-file src="src/ios/libInMobi-5.0.2.a" framework="true"/>
+    </platform>
+
+</plugin>

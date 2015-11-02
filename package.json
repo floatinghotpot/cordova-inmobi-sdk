@@ -1,0 +1,31 @@
+{
+  "name": "cordova-inmobi-sdk",
+  "version": "5.0.2",
+  "description": "Add InMobi SDK to Cordova porject, as dependency for other plugins",
+  "cordova": {
+    "id": "cordova-inmobi-sdk",
+    "platforms": [
+      "android",
+      "amazon-fireos",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/floatinghotpot/cordova-inmobi-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/floatinghotpot/cordova-inmobi-sdk/issues"
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "inmobi",
+    "rjfun",
+    "sdk"
+  ],
+  "author": {
+    "name": "Liming Xie"
+  },
+  "license": "MIT"
+}
